@@ -1,5 +1,5 @@
 name: Make_Artist_Elements
-description: File a bug report
+description:  File a request artist elements
 title: "[Bug]: "
 labels: ["bug", "triage"]
 assignees:
