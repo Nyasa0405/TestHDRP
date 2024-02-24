@@ -5,10 +5,6 @@ labels: ["Shader", "Model","Effect","Animation"]
 assignees:
   - octocat
 body:
-  - type: markdown
-    attributes:
-  
-       
   - type: input
     id: contact
     attributes:
