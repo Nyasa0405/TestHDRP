@@ -1,10 +1,14 @@
 name: Hot Bug Report
 description: File a bug report
-title: "[AristElements]: "
-labels: ["Shader", "Model","Effect","Animation"]
+title: "[Bug]: "
+labels: ["bug", "triage"]
 assignees:
   - octocat
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
   - type: input
     id: contact
     attributes:
