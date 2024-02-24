@@ -23,4 +23,10 @@ body:
       description: Also tell us, what do you want artist contents?
       placeholder: Tell us what you Want!
       value: "I want to make____."
+          attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
  
