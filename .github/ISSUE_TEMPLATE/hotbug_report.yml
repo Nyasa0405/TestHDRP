@@ -1,7 +1,7 @@
 name: Hot Bug Report
 description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
+title: "[AristElements]: "
+labels: ["Shader", "Model","Effect","Animation"]
 assignees:
   - octocat
 body:
