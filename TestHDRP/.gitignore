@@ -79,4 +79,7 @@ crashlytics-build.properties
 # Ignore Editor Setting
 ProjectSettings/EditorUserSettings.asset
 
+# Mac
+.DS_Store
+
 
