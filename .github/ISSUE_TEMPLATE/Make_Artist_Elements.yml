@@ -1,13 +1,14 @@
-name: Make Artist Elements
-description: File a request artist elements
-title: "[AristElements]: "
-labels: ["Shader", "Model","Effect","Animation"]
+name: Hot Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug", "triage"]
 assignees:
   - octocat
 body:
   - type: markdown
     attributes:
-       value: |
+      value: |
+        Thanks for taking the time to fill out this bug report!
   - type: input
     id: contact
     attributes:
@@ -19,11 +20,11 @@ body:
   - type: textarea
     id: what-happened
     attributes:
-      label: What Do You Want ?
-      description: Also tell us, what do you want artist contents?
-      placeholder: Tell us what you Want!
-      value: "I want to make____."
-     validations:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
       required: true
   - type: dropdown
     id: version
@@ -59,4 +60,3 @@ body:
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
- 
