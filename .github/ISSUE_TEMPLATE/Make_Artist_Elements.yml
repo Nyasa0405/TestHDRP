@@ -1,5 +1,5 @@
 name: Make Artist Elements
-description: File a request artist elements.
+description: File a request artist elements
 title: "[AristElements]: "
 labels: ["Shader", "Model","Effect","Animation"]
 assignees:
