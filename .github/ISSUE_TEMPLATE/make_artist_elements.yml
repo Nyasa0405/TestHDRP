@@ -17,21 +17,12 @@ body:
     id: what-happened
     attributes:
       label: What Do You Want ?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      description: Also tell us, what do you want artist contents?
+      placeholder: Tell us what you want!
+      value: "I want to make____."
     validations:
       required: true
-  - type: dropdown
-    id: version
-    attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-    validations:
-      required: true
+ 
   - type: dropdown
     id: browsers
     attributes:
